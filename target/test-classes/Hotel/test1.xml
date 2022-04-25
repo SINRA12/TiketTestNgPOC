@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoTestSuite">
+    <listeners>
+        <listener class-name="com.listeners.MyTransformer"></listener>
+    </listeners>
+    <test name="test">
+        <method-selectors>
+            <method-selector>
+                <script language="beanshell"><![CDATA[
+                    String [] andValues =System.getProperty("groups").split(",");
+                    String [] orValues= new String[100];
+                    int counter =0;
+                    boolean orValuePresent=false;
+                    for (int i =0 ;i<andValues.length;i++)
+                    {
+                        if(andValues[i].contains("_OR_"))
+                        {
+                            String [] orValue =andValues[i].split("_OR_");
+                            for(int j=0 ;j<orValue.length;j++)
+                            {
+                                orValues[counter]=orValue[j];
+                                counter=counter+1;
+                            }
+                            orValuePresent=true;
+                            andValues[i]="";
+                        }
+                    }
+                    if(orValuePresent)
+                    {
+                        boolean orExist=false;
+                        boolean andExist=true;
+                        for(int i =0;i<orValues.length;i++ )
+                        {
+                            if(groups.containsKey(orValues[i]))
+                            {
+                               orExist=true;
+                               break;
+                            }
+                        }
+                        for(int j =0;j<andValues.length;j++ )
+                        {
+                            if(andValues[j]!="" && !groups.containsKey(andValues[j]))
+                            {
+                               andExist=false;
+                               break;
+                            }
+                        }
+                        if(orExist && andExist){
+                           return true;
+                        }else {
+                           return false;
+                        }
+                    }else
+                    {
+                         if(andValues.length !=groups.size())
+                         {
+                             return false;
+                          }
+                          for(int i=0 ;i<andValues.length;i++)
+                          {
+                              if(!groups.containsKey(andValues[i]) )
+                              {
+                                return false;
+                              }
+                          }
+                          return true;
+                    }
+                 ]]></script>
+            </method-selector>
+        </method-selectors>
+        <classes>
+            <class name="android.hotel.Login" />
+            <class name="android.hotel.LoginMultiGuest" />
+            <class name="android.hotel.LoginSingleGuest" />
+            <class name="android.hotel.NonLogin" />
+            <class name="android.hotel.NonLoginMultiGuest" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="26" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-23T14:26:47 IST" name="DemoTestSuite" finished-at="2022-04-23T14:26:47 IST" duration-ms="50">
+    <groups>
+      <group name="Login1">
+        <method signature="Login.Login1()[pri:0, instance:android.hotel.Login@b62fe6d]" name="Login1" class="android.hotel.Login"/>
+        <method signature="Login.Login2()[pri:0, instance:android.hotel.Login@b62fe6d]" name="Login2" class="android.hotel.Login"/>
+        <method signature="Login.Login3()[pri:0, instance:android.hotel.Login@b62fe6d]" name="Login3" class="android.hotel.Login"/>
+        <method signature="Login.Login4()[pri:0, instance:android.hotel.Login@b62fe6d]" name="Login4" class="android.hotel.Login"/>
+        <method signature="Login.Login5()[pri:0, instance:android.hotel.Login@b62fe6d]" name="Login5" class="android.hotel.Login"/>
+        <method signature="Login.Login6()[pri:0, instance:android.hotel.Login@b62fe6d]" name="Login6" class="android.hotel.Login"/>
+        <method signature="LoginMultiGuest.LoginMultiGuest1()[pri:0, instance:android.hotel.LoginMultiGuest@13acb0d1]" name="LoginMultiGuest1" class="android.hotel.LoginMultiGuest"/>
+        <method signature="LoginMultiGuest.LoginMultiGuest2()[pri:0, instance:android.hotel.LoginMultiGuest@13acb0d1]" name="LoginMultiGuest2" class="android.hotel.LoginMultiGuest"/>
+        <method signature="LoginMultiGuest.LoginMultiGuest3()[pri:0, instance:android.hotel.LoginMultiGuest@13acb0d1]" name="LoginMultiGuest3" class="android.hotel.LoginMultiGuest"/>
+        <method signature="LoginMultiGuest.LoginMultiGuest4()[pri:0, instance:android.hotel.LoginMultiGuest@13acb0d1]" name="LoginMultiGuest4" class="android.hotel.LoginMultiGuest"/>
+        <method signature="LoginMultiGuest.LoginMultiGuest5()[pri:0, instance:android.hotel.LoginMultiGuest@13acb0d1]" name="LoginMultiGuest5" class="android.hotel.LoginMultiGuest"/>
+        <method signature="LoginSingleGuest.LoginSingleGuest1()[pri:0, instance:android.hotel.LoginSingleGuest@3e3047e6]" name="LoginSingleGuest1" class="android.hotel.LoginSingleGuest"/>
+        <method signature="LoginSingleGuest.LoginSingleGuest2()[pri:0, instance:android.hotel.LoginSingleGuest@3e3047e6]" name="LoginSingleGuest2" class="android.hotel.LoginSingleGuest"/>
+        <method signature="LoginSingleGuest.LoginSingleGuest3()[pri:0, instance:android.hotel.LoginSingleGuest@3e3047e6]" name="LoginSingleGuest3" class="android.hotel.LoginSingleGuest"/>
+        <method signature="LoginSingleGuest.LoginSingleGuest4()[pri:0, instance:android.hotel.LoginSingleGuest@3e3047e6]" name="LoginSingleGuest4" class="android.hotel.LoginSingleGuest"/>
+        <method signature="LoginSingleGuest.LoginSingleGuest5()[pri:0, instance:android.hotel.LoginSingleGuest@3e3047e6]" name="LoginSingleGuest5" class="android.hotel.LoginSingleGuest"/>
+      </group> <!-- Login1 -->
+      <group name="Login2">
+        <method signature="NonLoginMultiGuest.NonLoginMultiGuest5()[pri:0, instance:android.hotel.NonLoginMultiGuest@37e547da]" name="NonLoginMultiGuest5" class="android.hotel.NonLoginMultiGuest"/>
+      </group> <!-- Login2 -->
+      <group name="regression">
+        <method signature="Login.Login3()[pri:0, instance:android.hotel.Login@b62fe6d]" name="Login3" class="android.hotel.Login"/>
+        <method signature="Login.Login4()[pri:0, instance:android.hotel.Login@b62fe6d]" name="Login4" class="android.hotel.Login"/>
+        <method signature="Login.Login5()[pri:0, instance:android.hotel.Login@b62fe6d]" name="Login5" class="android.hotel.Login"/>
+        <method signature="Login.Login6()[pri:0, instance:android.hotel.Login@b62fe6d]" name="Login6" class="android.hotel.Login"/>
+        <method signature="LoginMultiGuest.LoginMultiGuest4()[pri:0, instance:android.hotel.LoginMultiGuest@13acb0d1]" name="LoginMultiGuest4" class="android.hotel.LoginMultiGuest"/>
+        <method signature="LoginMultiGuest.LoginMultiGuest5()[pri:0, instance:android.hotel.LoginMultiGuest@13acb0d1]" name="LoginMultiGuest5" class="android.hotel.LoginMultiGuest"/>
+        <method signature="LoginSingleGuest.LoginSingleGuest3()[pri:0, instance:android.hotel.LoginSingleGuest@3e3047e6]" name="LoginSingleGuest3" class="android.hotel.LoginSingleGuest"/>
+        <method signature="LoginSingleGuest.LoginSingleGuest4()[pri:0, instance:android.hotel.LoginSingleGuest@3e3047e6]" name="LoginSingleGuest4" class="android.hotel.LoginSingleGuest"/>
+        <method signature="LoginSingleGuest.LoginSingleGuest5()[pri:0, instance:android.hotel.LoginSingleGuest@3e3047e6]" name="LoginSingleGuest5" class="android.hotel.LoginSingleGuest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Login.Login2()[pri:0, instance:android.hotel.Login@b62fe6d]" name="Login2" class="android.hotel.Login"/>
+        <method signature="LoginMultiGuest.LoginMultiGuest1()[pri:0, instance:android.hotel.LoginMultiGuest@13acb0d1]" name="LoginMultiGuest1" class="android.hotel.LoginMultiGuest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Login.Login1()[pri:0, instance:android.hotel.Login@b62fe6d]" name="Login1" class="android.hotel.Login"/>
+        <method signature="LoginMultiGuest.LoginMultiGuest1()[pri:0, instance:android.hotel.LoginMultiGuest@13acb0d1]" name="LoginMultiGuest1" class="android.hotel.LoginMultiGuest"/>
+        <method signature="LoginMultiGuest.LoginMultiGuest2()[pri:0, instance:android.hotel.LoginMultiGuest@13acb0d1]" name="LoginMultiGuest2" class="android.hotel.LoginMultiGuest"/>
+        <method signature="LoginMultiGuest.LoginMultiGuest3()[pri:0, instance:android.hotel.LoginMultiGuest@13acb0d1]" name="LoginMultiGuest3" class="android.hotel.LoginMultiGuest"/>
+        <method signature="LoginSingleGuest.LoginSingleGuest1()[pri:0, instance:android.hotel.LoginSingleGuest@3e3047e6]" name="LoginSingleGuest1" class="android.hotel.LoginSingleGuest"/>
+        <method signature="LoginSingleGuest.LoginSingleGuest2()[pri:0, instance:android.hotel.LoginSingleGuest@3e3047e6]" name="LoginSingleGuest2" class="android.hotel.LoginSingleGuest"/>
+        <method signature="NonLoginMultiGuest.NonLoginMultiGuest5()[pri:0, instance:android.hotel.NonLoginMultiGuest@37e547da]" name="NonLoginMultiGuest5" class="android.hotel.NonLoginMultiGuest"/>
+      </group> <!-- sanity -->
+      <group name="preProd">
+        <method signature="Login.Login6()[pri:0, instance:android.hotel.Login@b62fe6d]" name="Login6" class="android.hotel.Login"/>
+        <method signature="LoginMultiGuest.LoginMultiGuest3()[pri:0, instance:android.hotel.LoginMultiGuest@13acb0d1]" name="LoginMultiGuest3" class="android.hotel.LoginMultiGuest"/>
+        <method signature="LoginSingleGuest.LoginSingleGuest3()[pri:0, instance:android.hotel.LoginSingleGuest@3e3047e6]" name="LoginSingleGuest3" class="android.hotel.LoginSingleGuest"/>
+        <method signature="LoginSingleGuest.LoginSingleGuest5()[pri:0, instance:android.hotel.LoginSingleGuest@3e3047e6]" name="LoginSingleGuest5" class="android.hotel.LoginSingleGuest"/>
+      </group> <!-- preProd -->
+    </groups>
+    <test started-at="2022-04-23T14:26:47 IST" name="test" finished-at="2022-04-23T14:26:47 IST" duration-ms="50">
+      <class name="android.hotel.LoginSingleGuest">
+        <test-method signature="LoginSingleGuest1()[pri:0, instance:android.hotel.LoginSingleGuest@3e3047e6]" started-at="2022-04-23T14:26:47 IST" name="LoginSingleGuest1" finished-at="2022-04-23T14:26:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSingleGuest1 -->
+        <test-method signature="LoginSingleGuest2()[pri:0, instance:android.hotel.LoginSingleGuest@3e3047e6]" started-at="2022-04-23T14:26:47 IST" name="LoginSingleGuest2" finished-at="2022-04-23T14:26:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSingleGuest2 -->
+        <test-method signature="LoginSingleGuest3()[pri:0, instance:android.hotel.LoginSingleGuest@3e3047e6]" started-at="2022-04-23T14:26:47 IST" name="LoginSingleGuest3" finished-at="2022-04-23T14:26:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSingleGuest3 -->
+        <test-method signature="LoginSingleGuest4()[pri:0, instance:android.hotel.LoginSingleGuest@3e3047e6]" started-at="2022-04-23T14:26:47 IST" name="LoginSingleGuest4" finished-at="2022-04-23T14:26:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSingleGuest4 -->
+        <test-method signature="LoginSingleGuest5()[pri:0, instance:android.hotel.LoginSingleGuest@3e3047e6]" started-at="2022-04-23T14:26:47 IST" name="LoginSingleGuest5" finished-at="2022-04-23T14:26:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSingleGuest5 -->
+      </class> <!-- android.hotel.LoginSingleGuest -->
+      <class name="android.hotel.LoginMultiGuest">
+        <test-method signature="LoginMultiGuest1()[pri:0, instance:android.hotel.LoginMultiGuest@13acb0d1]" started-at="2022-04-23T14:26:47 IST" name="LoginMultiGuest1" finished-at="2022-04-23T14:26:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMultiGuest1 -->
+        <test-method signature="LoginMultiGuest2()[pri:0, instance:android.hotel.LoginMultiGuest@13acb0d1]" started-at="2022-04-23T14:26:47 IST" name="LoginMultiGuest2" finished-at="2022-04-23T14:26:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMultiGuest2 -->
+        <test-method signature="LoginMultiGuest4()[pri:0, instance:android.hotel.LoginMultiGuest@13acb0d1]" started-at="2022-04-23T14:26:47 IST" name="LoginMultiGuest4" finished-at="2022-04-23T14:26:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMultiGuest4 -->
+        <test-method signature="LoginMultiGuest3()[pri:0, instance:android.hotel.LoginMultiGuest@13acb0d1]" started-at="2022-04-23T14:26:47 IST" name="LoginMultiGuest3" finished-at="2022-04-23T14:26:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMultiGuest3 -->
+        <test-method signature="LoginMultiGuest5()[pri:0, instance:android.hotel.LoginMultiGuest@13acb0d1]" started-at="2022-04-23T14:26:47 IST" name="LoginMultiGuest5" finished-at="2022-04-23T14:26:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMultiGuest5 -->
+      </class> <!-- android.hotel.LoginMultiGuest -->
+      <class name="android.hotel.NonLoginMultiGuest">
+        <test-method signature="NonLoginMultiGuest5()[pri:0, instance:android.hotel.NonLoginMultiGuest@37e547da]" started-at="2022-04-23T14:26:47 IST" name="NonLoginMultiGuest5" finished-at="2022-04-23T14:26:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NonLoginMultiGuest5 -->
+      </class> <!-- android.hotel.NonLoginMultiGuest -->
+      <class name="android.hotel.Login">
+        <test-method signature="Login1()[pri:0, instance:android.hotel.Login@b62fe6d]" started-at="2022-04-23T14:26:47 IST" name="Login1" finished-at="2022-04-23T14:26:47 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login1 -->
+        <test-method signature="Login2()[pri:0, instance:android.hotel.Login@b62fe6d]" started-at="2022-04-23T14:26:47 IST" name="Login2" finished-at="2022-04-23T14:26:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login2 -->
+        <test-method signature="Login3()[pri:0, instance:android.hotel.Login@b62fe6d]" started-at="2022-04-23T14:26:47 IST" name="Login3" finished-at="2022-04-23T14:26:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login3 -->
+        <test-method signature="Login4()[pri:0, instance:android.hotel.Login@b62fe6d]" started-at="2022-04-23T14:26:47 IST" name="Login4" finished-at="2022-04-23T14:26:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login4 -->
+        <test-method signature="Login5()[pri:0, instance:android.hotel.Login@b62fe6d]" started-at="2022-04-23T14:26:47 IST" name="Login5" finished-at="2022-04-23T14:26:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login5 -->
+        <test-method signature="Login6()[pri:0, instance:android.hotel.Login@b62fe6d]" started-at="2022-04-23T14:26:47 IST" name="Login6" finished-at="2022-04-23T14:26:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login6 -->
+      </class> <!-- android.hotel.Login -->
+    </test> <!-- test -->
+  </suite> <!-- DemoTestSuite -->
+</testng-results>

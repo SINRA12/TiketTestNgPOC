@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoTestSuite">
+    <test name="test">
+        <classes>
+            <class name="android.hotel.RescheduleLogin" />
+            <class name="android.hotel.SearchRecently" />
+            <class name="android.hotel.VerifyCaseLogin" />
+            <class name="android.hotel.VerifyCaseNonLogin" />
+            <class name="android.hotel.VerifyRoomListLogin" />
+            <class name="android.hotel.VerifyRoomListNonLogin" />
+        </classes>
+    </test>
+</suite>

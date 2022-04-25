@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="5.714" tests="17" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="surefire.suiteXmlFiles" value="src/test/resources/Hotel/test1.xml"/>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/rakeshsingh/Workspace/java/TiketTestNgPOC/target/test-classes:/Users/rakeshsingh/Workspace/java/TiketTestNgPOC/target/classes:/Users/rakeshsingh/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/rakeshsingh/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/rakeshsingh/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/rakeshsingh/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/rakeshsingh/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/rakeshsingh/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/rakeshsingh/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/rakeshsingh/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/rakeshsingh/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/rakeshsingh/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/18/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/rakeshsingh/Workspace/java/TiketTestNgPOC/target/surefire/surefirebooter17683292468028498720.jar /Users/rakeshsingh/Workspace/java/TiketTestNgPOC/target/surefire 2022-04-23T14-26-46_593-jvmRun1 surefire16989852085639506210tmp surefire_04334461440193086894tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/rakeshsingh/Workspace/java/TiketTestNgPOC/target/test-classes:/Users/rakeshsingh/Workspace/java/TiketTestNgPOC/target/classes:/Users/rakeshsingh/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/rakeshsingh/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/rakeshsingh/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/rakeshsingh/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/rakeshsingh/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/rakeshsingh/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/rakeshsingh/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/rakeshsingh/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/rakeshsingh/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/rakeshsingh/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/rakeshsingh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-03-22"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/18/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/rakeshsingh/Workspace/java/TiketTestNgPOC"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/rakeshsingh/Workspace/java/TiketTestNgPOC/target/surefire/surefirebooter17683292468028498720.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="18+0"/>
+    <property name="user.name" value="rakeshsingh"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.2.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/rakeshsingh/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/rc/w013_7414q3_w5j7r3bn3m440000gn/T/"/>
+    <property name="java.version" value="18"/>
+    <property name="user.dir" value="/Users/rakeshsingh/Workspace/java/TiketTestNgPOC"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="groups" value="Login1_OR_smoke_OR_sanity"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/rakeshsingh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="18+0"/>
+    <property name="skippedMethods" value=""/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="Login1" classname="android.hotel.Login" time="0.006"/>
+  <testcase name="Login2" classname="android.hotel.Login" time="0"/>
+  <testcase name="Login3" classname="android.hotel.Login" time="0"/>
+  <testcase name="Login4" classname="android.hotel.Login" time="0.001"/>
+  <testcase name="Login5" classname="android.hotel.Login" time="0"/>
+  <testcase name="Login6" classname="android.hotel.Login" time="0.001"/>
+  <testcase name="NonLoginMultiGuest5" classname="android.hotel.NonLoginMultiGuest" time="0"/>
+  <testcase name="LoginMultiGuest1" classname="android.hotel.LoginMultiGuest" time="0.001"/>
+  <testcase name="LoginMultiGuest2" classname="android.hotel.LoginMultiGuest" time="0.001"/>
+  <testcase name="LoginMultiGuest3" classname="android.hotel.LoginMultiGuest" time="0"/>
+  <testcase name="LoginMultiGuest4" classname="android.hotel.LoginMultiGuest" time="0"/>
+  <testcase name="LoginMultiGuest5" classname="android.hotel.LoginMultiGuest" time="0.001"/>
+  <testcase name="LoginSingleGuest1" classname="android.hotel.LoginSingleGuest" time="0"/>
+  <testcase name="LoginSingleGuest2" classname="android.hotel.LoginSingleGuest" time="0"/>
+  <testcase name="LoginSingleGuest3" classname="android.hotel.LoginSingleGuest" time="0.001"/>
+  <testcase name="LoginSingleGuest4" classname="android.hotel.LoginSingleGuest" time="0"/>
+  <testcase name="LoginSingleGuest5" classname="android.hotel.LoginSingleGuest" time="0.001"/>
+</testsuite>

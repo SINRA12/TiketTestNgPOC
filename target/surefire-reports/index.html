@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-DemoTestSuite" class="navigator-link">
+              <span class="suite-name border-passed">DemoTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-DemoTestSuite" class="navigator-link ">
+                    <span>test1.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-DemoTestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-DemoTestSuite" class="navigator-link ">
+                    <span>6 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-DemoTestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-DemoTestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-DemoTestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-DemoTestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-DemoTestSuite" class="hide-methods passed suite-DemoTestSuite"> (hide)</a> <!-- hide-methods passed suite-DemoTestSuite -->
+                      <a href="#" panel-name="suite-DemoTestSuite" class="show-methods passed suite-DemoTestSuite"> (show)</a> <!-- show-methods passed suite-DemoTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-DemoTestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoTestSuite" title="android.hotel.Login" class="method navigator-link" hash-for-method="Login1">Login1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoTestSuite" title="android.hotel.Login" class="method navigator-link" hash-for-method="Login2">Login2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoTestSuite" title="android.hotel.Login" class="method navigator-link" hash-for-method="Login3">Login3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoTestSuite" title="android.hotel.Login" class="method navigator-link" hash-for-method="Login4">Login4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoTestSuite" title="android.hotel.Login" class="method navigator-link" hash-for-method="Login5">Login5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoTestSuite" title="android.hotel.Login" class="method navigator-link" hash-for-method="Login6">Login6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoTestSuite" title="android.hotel.LoginMultiGuest" class="method navigator-link" hash-for-method="LoginMultiGuest1">LoginMultiGuest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoTestSuite" title="android.hotel.LoginMultiGuest" class="method navigator-link" hash-for-method="LoginMultiGuest2">LoginMultiGuest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoTestSuite" title="android.hotel.LoginMultiGuest" class="method navigator-link" hash-for-method="LoginMultiGuest3">LoginMultiGuest3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoTestSuite" title="android.hotel.LoginMultiGuest" class="method navigator-link" hash-for-method="LoginMultiGuest4">LoginMultiGuest4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoTestSuite" title="android.hotel.LoginMultiGuest" class="method navigator-link" hash-for-method="LoginMultiGuest5">LoginMultiGuest5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoTestSuite" title="android.hotel.LoginSingleGuest" class="method navigator-link" hash-for-method="LoginSingleGuest1">LoginSingleGuest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoTestSuite" title="android.hotel.LoginSingleGuest" class="method navigator-link" hash-for-method="LoginSingleGuest2">LoginSingleGuest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoTestSuite" title="android.hotel.LoginSingleGuest" class="method navigator-link" hash-for-method="LoginSingleGuest3">LoginSingleGuest3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoTestSuite" title="android.hotel.LoginSingleGuest" class="method navigator-link" hash-for-method="LoginSingleGuest4">LoginSingleGuest4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoTestSuite" title="android.hotel.LoginSingleGuest" class="method navigator-link" hash-for-method="LoginSingleGuest5">LoginSingleGuest5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoTestSuite" title="android.hotel.NonLoginMultiGuest" class="method navigator-link" hash-for-method="NonLoginMultiGuest5">NonLoginMultiGuest5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-DemoTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-DemoTestSuite" class="panel DemoTestSuite">
+          <div class="suite-DemoTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">android.hotel.LoginSingleGuest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSingleGuest1">
+                  </a> <!-- LoginSingleGuest1 -->
+                  <span class="method-name">LoginSingleGuest1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSingleGuest2">
+                  </a> <!-- LoginSingleGuest2 -->
+                  <span class="method-name">LoginSingleGuest2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSingleGuest3">
+                  </a> <!-- LoginSingleGuest3 -->
+                  <span class="method-name">LoginSingleGuest3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSingleGuest4">
+                  </a> <!-- LoginSingleGuest4 -->
+                  <span class="method-name">LoginSingleGuest4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSingleGuest5">
+                  </a> <!-- LoginSingleGuest5 -->
+                  <span class="method-name">LoginSingleGuest5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoTestSuite-class-passed -->
+          <div class="suite-DemoTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">android.hotel.LoginMultiGuest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginMultiGuest1">
+                  </a> <!-- LoginMultiGuest1 -->
+                  <span class="method-name">LoginMultiGuest1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginMultiGuest2">
+                  </a> <!-- LoginMultiGuest2 -->
+                  <span class="method-name">LoginMultiGuest2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginMultiGuest3">
+                  </a> <!-- LoginMultiGuest3 -->
+                  <span class="method-name">LoginMultiGuest3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginMultiGuest4">
+                  </a> <!-- LoginMultiGuest4 -->
+                  <span class="method-name">LoginMultiGuest4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginMultiGuest5">
+                  </a> <!-- LoginMultiGuest5 -->
+                  <span class="method-name">LoginMultiGuest5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoTestSuite-class-passed -->
+          <div class="suite-DemoTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">android.hotel.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login1">
+                  </a> <!-- Login1 -->
+                  <span class="method-name">Login1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login2">
+                  </a> <!-- Login2 -->
+                  <span class="method-name">Login2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login3">
+                  </a> <!-- Login3 -->
+                  <span class="method-name">Login3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login4">
+                  </a> <!-- Login4 -->
+                  <span class="method-name">Login4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login5">
+                  </a> <!-- Login5 -->
+                  <span class="method-name">Login5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login6">
+                  </a> <!-- Login6 -->
+                  <span class="method-name">Login6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoTestSuite-class-passed -->
+          <div class="suite-DemoTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">android.hotel.NonLoginMultiGuest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NonLoginMultiGuest5">
+                  </a> <!-- NonLoginMultiGuest5 -->
+                  <span class="method-name">NonLoginMultiGuest5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DemoTestSuite-class-passed -->
+        </div> <!-- panel DemoTestSuite -->
+        <div panel-name="test-xml-DemoTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/rakeshsingh/Workspace/java/TiketTestNgPOC/src/test/resources/Hotel/test1.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;DemoTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.listeners.MyTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;Login1_OR_smoke_OR_sanity&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;test&quot; verbose=&quot;0&quot;&gt;
+    &lt;method-selectors&gt;
+      &lt;method-selector&gt;
+        &lt;script language=&quot;beanshell&quot;&gt;
+          &lt;![CDATA[
+                    String [] andValues =System.getProperty(&quot;groups&quot;).split(&quot;,&quot;);
+                    String [] orValues= new String[100];
+                    int counter =0;
+                    boolean orValuePresent=false;
+                    for (int i =0 ;i&lt;andValues.length;i++)
+                    {
+                        if(andValues[i].contains(&quot;_OR_&quot;))
+                        {
+                            String [] orValue =andValues[i].split(&quot;_OR_&quot;);
+                            for(int j=0 ;j&lt;orValue.length;j++)
+                            {
+                                orValues[counter]=orValue[j];
+                                counter=counter+1;
+                            }
+                            orValuePresent=true;
+                            andValues[i]=&quot;&quot;;
+                        }
+                    }
+                    if(orValuePresent)
+                    {
+                        boolean orExist=false;
+                        boolean andExist=true;
+                        for(int i =0;i&lt;orValues.length;i++ )
+                        {
+                            if(groups.containsKey(orValues[i]))
+                            {
+                               orExist=true;
+                               break;
+                            }
+                        }
+                        for(int j =0;j&lt;andValues.length;j++ )
+                        {
+                            if(andValues[j]!=&quot;&quot; &amp;&amp; !groups.containsKey(andValues[j]))
+                            {
+                               andExist=false;
+                               break;
+                            }
+                        }
+                        if(orExist &amp;&amp; andExist){
+                           return true;
+                        }else {
+                           return false;
+                        }
+                    }else
+                    {
+                         if(andValues.length !=groups.size())
+                         {
+                             return false;
+                          }
+                          for(int i=0 ;i&lt;andValues.length;i++)
+                          {
+                              if(!groups.containsKey(andValues[i]) )
+                              {
+                                return false;
+                              }
+                          }
+                          return true;
+                    }
+                 ]]&gt;
+        &lt;/script&gt;
+      &lt;/method-selector&gt;
+    &lt;/method-selectors&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Login1_OR_smoke_OR_sanity&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;android.hotel.Login&quot;/&gt;
+      &lt;class name=&quot;android.hotel.LoginMultiGuest&quot;/&gt;
+      &lt;class name=&quot;android.hotel.LoginSingleGuest&quot;/&gt;
+      &lt;class name=&quot;android.hotel.NonLogin&quot;/&gt;
+      &lt;class name=&quot;android.hotel.NonLoginMultiGuest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test --&gt;
+&lt;/suite&gt; &lt;!-- DemoTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DemoTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DemoTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DemoTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DemoTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Login1</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Login1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Login2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Login3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Login4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Login5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Login6</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginMultiGuest1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginMultiGuest2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginMultiGuest3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginMultiGuest4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginMultiGuest5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginSingleGuest1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginSingleGuest2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginSingleGuest3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginSingleGuest4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginSingleGuest5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Login2</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">NonLoginMultiGuest5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">preProd</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Login6</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginMultiGuest3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginSingleGuest3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginSingleGuest5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Login3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Login4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Login5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Login6</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginMultiGuest4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginMultiGuest5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginSingleGuest3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginSingleGuest4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginSingleGuest5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Login1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginMultiGuest1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginMultiGuest2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginMultiGuest3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginSingleGuest1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginSingleGuest2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">NonLoginMultiGuest5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Login2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">LoginMultiGuest1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DemoTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DemoTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DemoTestSuite');
+function tableData_DemoTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Login1')
+data.setCell(0, 2, 'android.hotel.Login')
+data.setCell(0, 3, 5);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LoginMultiGuest4')
+data.setCell(1, 2, 'android.hotel.LoginMultiGuest')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginSingleGuest1')
+data.setCell(2, 2, 'android.hotel.LoginSingleGuest')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginSingleGuest2')
+data.setCell(3, 2, 'android.hotel.LoginSingleGuest')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Login2')
+data.setCell(4, 2, 'android.hotel.Login')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Login3')
+data.setCell(5, 2, 'android.hotel.Login')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Login6')
+data.setCell(6, 2, 'android.hotel.Login')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Login4')
+data.setCell(7, 2, 'android.hotel.Login')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Login5')
+data.setCell(8, 2, 'android.hotel.Login')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'LoginSingleGuest5')
+data.setCell(9, 2, 'android.hotel.LoginSingleGuest')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'LoginSingleGuest4')
+data.setCell(10, 2, 'android.hotel.LoginSingleGuest')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'LoginSingleGuest3')
+data.setCell(11, 2, 'android.hotel.LoginSingleGuest')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'LoginMultiGuest5')
+data.setCell(12, 2, 'android.hotel.LoginMultiGuest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'LoginMultiGuest2')
+data.setCell(13, 2, 'android.hotel.LoginMultiGuest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'LoginMultiGuest3')
+data.setCell(14, 2, 'android.hotel.LoginMultiGuest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'LoginMultiGuest1')
+data.setCell(15, 2, 'android.hotel.LoginMultiGuest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'NonLoginMultiGuest5')
+data.setCell(16, 2, 'android.hotel.NonLoginMultiGuest')
+data.setCell(16, 3, 0);
+window.suiteTableData['DemoTestSuite']= { tableData: data, tableDiv: 'times-div-DemoTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 16 ms</span>
+              <div id="times-div-DemoTestSuite">
+              </div> <!-- times-div-DemoTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DemoTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DemoTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DemoTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">9 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">android.hotel.NonLogin</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">NonLogin2</span>
+                <br/>
+                <span class="ignored-method-name">NonLogin1</span>
+                <br/>
+                <span class="ignored-method-name">NonLogin3</span>
+                <br/>
+                <span class="ignored-method-name">NonLogin5</span>
+                <br/>
+                <span class="ignored-method-name">NonLogin4</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">android.hotel.NonLoginMultiGuest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">NonLoginMultiGuest3</span>
+                <br/>
+                <span class="ignored-method-name">NonLoginMultiGuest4</span>
+                <br/>
+                <span class="ignored-method-name">NonLoginMultiGuest2</span>
+                <br/>
+                <span class="ignored-method-name">NonLoginMultiGuest1</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DemoTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">android.hotel.Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Login1</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login2</span>
+                <span class="method-start">8 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login3</span>
+                <span class="method-start">9 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login4</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login5</span>
+                <span class="method-start">11 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login6</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">android.hotel.NonLoginMultiGuest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">NonLoginMultiGuest5</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">android.hotel.LoginMultiGuest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginMultiGuest1</span>
+                <span class="method-start">16 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginMultiGuest2</span>
+                <span class="method-start">17 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginMultiGuest3</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginMultiGuest4</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginMultiGuest5</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">android.hotel.LoginSingleGuest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">LoginSingleGuest1</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginSingleGuest2</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginSingleGuest3</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginSingleGuest4</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LoginSingleGuest5</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

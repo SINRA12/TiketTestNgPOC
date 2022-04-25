@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoTestSuite">
+    <listeners>
+        <listener class-name="com.listeners.MyTransformer"></listener>
+    </listeners>
+    <test name="test">
+        <method-selectors>
+            <method-selector>
+                <script language="beanshell"><![CDATA[
+                   String [] values=System.getProperty("groups").split(",");
+                    if(values.length !=groups.size()){
+                        return false;
+                    }
+                    for(int i=0 ;i<values.length;i++){
+                          if(!groups.containsKey(values[i]) ){
+                            return false;
+                          }
+                     }
+                     return true;
+                 ]]></script>
+            </method-selector>
+        </method-selectors>
+        <classes>
+            <class name="android.hotel.Login" />
+            <class name="android.hotel.LoginMultiGuest" />
+            <class name="android.hotel.LoginSingleGuest" />
+            <class name="android.hotel.NonLogin" />
+            <class name="android.hotel.NonLoginMultiGuest" />
+        </classes>
+    </test>
+</suite>
